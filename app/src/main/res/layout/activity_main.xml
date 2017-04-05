@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lili.activitylifecycleslogger.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="474dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="3dp">
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            tools:layout_editor_absoluteX="98dp"
+            tools:layout_editor_absoluteY="376dp" />
+
+        <Button
+            android:id="@+id/MainButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Button"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="490dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="77dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="60dp"
+        tools:layout_editor_absoluteX="-4dp">
+
+        <TextView
+            android:id="@+id/mainText"
+            android:layout_width="316dp"
+            android:layout_height="383dp"
+            android:text="Hello World!"
+            tools:layout_editor_absoluteX="168dp"
+            tools:layout_editor_absoluteY="292dp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
